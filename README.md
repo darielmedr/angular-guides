@@ -6,6 +6,7 @@ Guides for common configurations [Angular](https://angular.io/) projects.
 
 - [Linting 🔎](#linting-)
 - [Version control (Git) 🖊️](#version-control-git-️)
+- [Dependencies (Npm) ⛓️](#dependencies-npm-️)
 
 ## Linting 🔎
 
@@ -14,3 +15,7 @@ Guides for common configurations [Angular](https://angular.io/) projects.
 ## Version control (Git) 🖊️
 
 🔗 [Conventional Commits](./guides/version-control/conventional-commits.md)
+
+## Dependencies (Npm) ⛓️
+
+🔗 [Force resolutions](./guides/dependencies/force-resolutions.md)
