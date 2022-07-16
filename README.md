@@ -11,6 +11,7 @@ Guides for common configurations [Angular](https://angular.io/) projects.
 ## Linting 🔎
 
 🔗 [ESLint + Prettier](./guides/linting/eslint-prettier.md)
+🔗 [Linting staged files and commit messages](./guides/linting/staged-files-and-commit-messages.md)
 
 ## Version control (Git) 🖊️
 
