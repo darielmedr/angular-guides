@@ -1,6 +1,6 @@
 # Angular Guides 📝 <!-- omit in toc -->
 
-Guides for common configurations [Angular](https://angular.io/) projects.
+Guides for common configurations in [Angular](https://angular.io/) projects.
 
 ## Topics <!-- omit in toc -->
 
