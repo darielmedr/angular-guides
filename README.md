@@ -7,6 +7,7 @@ Guides for common configurations in [Angular](https://angular.io/) projects.
 - [Linting 🔎](#linting-)
 - [Version control (Git) 🖊️](#version-control-git-️)
 - [Dependencies (Npm) ⛓️](#dependencies-npm-️)
+- [Containerization with Docker 📦](#containerization-with-docker-)
 
 ## Linting 🔎
 
@@ -20,3 +21,7 @@ Guides for common configurations in [Angular](https://angular.io/) projects.
 ## Dependencies (Npm) ⛓️
 
 🔗 [Force resolutions](./guides/dependencies/force-resolutions.md)
+
+## Containerization with Docker 📦
+
+🔗 [Dockerize Angular application](./guides/containerization-with-docker/angular-app.md)
