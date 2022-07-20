@@ -8,6 +8,7 @@ Guides for common configurations in [Angular](https://angular.io/) projects.
 - [Version control (Git) 🖊️](#version-control-git-️)
 - [Dependencies (Npm) ⛓️](#dependencies-npm-️)
 - [Containerization with Docker 📦](#containerization-with-docker-)
+- [Unit testing 🧪](#unit-testing-)
 
 ## Linting 🔎
 
@@ -25,3 +26,7 @@ Guides for common configurations in [Angular](https://angular.io/) projects.
 ## Containerization with Docker 📦
 
 🔗 [Dockerize Angular application](./guides/containerization-with-docker/angular-app.md)
+
+## Unit testing 🧪
+
+🔗 [Unit testing common issues and workarounds](./guides/unit-testing/issues-and-workarounds.md)
