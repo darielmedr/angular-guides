@@ -29,4 +29,6 @@ Guides for common configurations in [Angular](https://angular.io/) projects.
 
 ## Unit testing 🧪
 
+Check reference [documentation](https://testing-angular.com/).
+
 🔗 [Unit testing common issues and workarounds](./guides/unit-testing/issues-and-workarounds.md)
