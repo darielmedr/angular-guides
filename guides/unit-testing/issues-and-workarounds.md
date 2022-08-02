@@ -2,8 +2,39 @@
 
 A cheatsheet for common issues and workarounds.
 
+- [Install and setup ***ng-mocks*** package](#install-and-setup-ng-mocks-package)
 - [Components with change detection strategy *OnPush*](#components-with-change-detection-strategy-onpush)
 - [Directives with *ngControl* dependency](#directives-with-ngcontrol-dependency)
+
+## Install and setup ***ng-mocks*** package
+
+Install [ng-mocks](https://www.npmjs.com/package/ng-mocks) package.
+
+```shell
+npm i -D ng-mocks
+```
+
+Setup in `src/test.ts` file:
+
+```ts
+...
+import { MockInstance, ngMocks } from 'ng-mocks';
+
+...
+
+// auto spy
+ngMocks.autoSpy('jasmine');
+
+// auto restore for jasmine
+jasmine.getEnv().addReporter({
+  specDone: MockInstance.restore,
+  specStarted: MockInstance.remember,
+  suiteDone: MockInstance.restore,
+  suiteStarted: MockInstance.remember,
+});
+
+...
+```
 
 ## Components with change detection strategy *OnPush*
 
