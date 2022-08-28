@@ -2,11 +2,12 @@
 
 A cheatsheet for common issues and workarounds.
 
-- [Install and setup ***ng-mocks*** package](#install-and-setup-ng-mocks-package)
+- [Install and setup *ng-mocks* package](#install-and-setup-ng-mocks-package)
+- [Resolve Jasmine/Jest and Mocha/Chai (for Cypress) types conflict](#resolve-jasminejest-and-mochachai-for-cypress-types-conflict)
 - [Components with change detection strategy *OnPush*](#components-with-change-detection-strategy-onpush)
 - [Directives with *ngControl* dependency](#directives-with-ngcontrol-dependency)
 
-## Install and setup ***ng-mocks*** package
+## Install and setup *ng-mocks* package
 
 Install [ng-mocks](https://www.npmjs.com/package/ng-mocks) package.
 
@@ -35,6 +36,47 @@ jasmine.getEnv().addReporter({
 
 ...
 ```
+
+## Resolve Jasmine/Jest and Mocha/Chai (for Cypress) types conflict
+
+Using Cypress with Typescript causes type conflict between Mocha/Chai and Jasmine/Jest, e.g.:
+
+```shell
+Property 'toBeTruthy' does not exist on type 'Assertion'.
+```
+
+Project folder structure:
+
+```tree
+├─ cypress
+  ├─ **
+  └─ tsconfig.json
+├─ src
+  ├─ **
+├─ cypress.config.ts
+└─ tsconfig.json
+```
+
+Add in the root `tsconfg.json`:
+
+```json
+{
+  ...
+  "exclude": ["cypress/**/*.ts", "./cypress.config.ts"]
+}
+```
+
+Add in the `cypress/tsconfg.json`:
+
+```json
+{
+  ...
+  "include": ["**/*.ts"],
+  "exclude": []
+}
+```
+
+ℹ️ You may need to reload VSCode. `F1 (Ctrl + Shift + P) > Developer: Reload Window`.
 
 ## Components with change detection strategy *OnPush*
 
