@@ -4,11 +4,16 @@ Guides for common configurations in [Angular](https://angular.io/) projects.
 
 ## Topics <!-- omit in toc -->
 
+- [Deploy 🚀](#deploy-)
 - [Linting 🔎](#linting-)
 - [Version control (Git) 🖊️](#version-control-git-️)
 - [Dependencies (Npm) ⛓️](#dependencies-npm-️)
 - [Containerization with Docker 📦](#containerization-with-docker-)
 - [Unit testing 🧪](#unit-testing-)
+
+## Deploy 🚀
+
+🔗 [Github pages](./guides/deploy/github-pages.md)
 
 ## Linting 🔎
 
