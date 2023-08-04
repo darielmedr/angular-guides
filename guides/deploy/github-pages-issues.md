@@ -1,4 +1,4 @@
-# Deploy to Github pages 🚀
+# Deploy to Github pages issues 🚀
 
 Check official [docs](https://angular.io/guide/deployment#deploy-to-github-pages).
 
