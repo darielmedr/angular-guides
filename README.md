@@ -15,33 +15,33 @@ Guides for common configurations in [Angular](https://angular.io/) projects.
 ## CI/CD 🎁
 
 - Github
-🔗 [PR checks](./guides/cicd/github/pr-checks.md)
-🔗 [Deploy to GH Pages](./guides/cicd/github/deploy-gh-pages.md)
+  - 🔗 [PR checks](./guides/cicd/github/pr-checks.md)
+  - 🔗 [Deploy to GH Pages](./guides/cicd/github/deploy-gh-pages.md)
 
 ## Deploy issues 🚀
 
-🔗 [Github pages](./guides/deploy/github-pages-issues.md)
+- 🔗 [Github pages](./guides/deploy/github-pages-issues.md)
 
 ## Linting 🔎
 
-🔗 [ESLint + Prettier](./guides/linting/eslint-prettier.md)
-🔗 [Linting staged files and commit messages](./guides/linting/staged-files-and-commit-messages.md)
+- 🔗 [ESLint + Prettier](./guides/linting/eslint-prettier.md)
+- 🔗 [Linting staged files and commit messages](./guides/linting/staged-files-and-commit-messages.md)
 
 ## Version control (Git) 🖊️
 
-🔗 [Conventional Commits](./guides/version-control/conventional-commits.md)
+- 🔗 [Conventional Commits](./guides/version-control/conventional-commits.md)
 
 ## Dependencies (Npm) ⛓️
 
-🔗 [Force resolutions](./guides/dependencies/force-resolutions.md)
+- 🔗 [Force resolutions](./guides/dependencies/force-resolutions.md)
 
 ## Containerization with Docker 📦
 
-🔗 [Dockerize Angular application](./guides/containerization-with-docker/angular-app.md)
+- 🔗 [Dockerize Angular application](./guides/containerization-with-docker/angular-app.md)
 
 ## Unit testing 🧪
 
 Check reference [documentation](https://testing-angular.com/).
 
-🔗 [Configure Jasmine + Karma](./guides/unit-testing/config-jasmine-karma.md)
-🔗 [Unit testing common issues and workarounds](./guides/unit-testing/issues-and-workarounds.md)
+- 🔗 [Configure Jasmine + Karma](./guides/unit-testing/config-jasmine-karma.md)
+- 🔗 [Unit testing common issues and workarounds](./guides/unit-testing/issues-and-workarounds.md)
