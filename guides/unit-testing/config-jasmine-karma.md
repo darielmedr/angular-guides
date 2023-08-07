@@ -53,8 +53,8 @@ Update `angular.json` file.
 
 ```json
 {
-  "scripts": {
-    "my-awesome-proyect": {
+  "projects": {
+    "my-awesome-project": {
       "architect": {
         "test": {
           "karmaConfig": "karma.conf.js",
